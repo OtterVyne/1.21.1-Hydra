@@ -5,6 +5,7 @@
 
 
   "block.hydra.titanium_ore": "Titanium Ore",
+  "block.hydra.titanium_ore_block": "Block Of Raw Titanium",
   "block.hydra.titanium_deepslate_ore": "Deepslate Titanium Ore",
   "block.hydra.titanium_block": "Block Of Titanium",
   "creativetab.hydra.hydra_item_tab": "Hydra"

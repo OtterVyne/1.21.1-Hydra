@@ -3,6 +3,7 @@
   "values": [
     "hydra:titanium_block",
     "hydra:titanium_ore",
-    "hydra:titanium_deepslate_ore"
+    "hydra:titanium_deepslate_ore",
+    "hydra:titanium_ore_block"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hydra:block/titanium_ore_block"
+    }
+  }
+}

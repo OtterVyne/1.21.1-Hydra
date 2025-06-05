@@ -22,12 +22,12 @@ public class ModCreativeModeTabs {
                         //ITEMS
             output.accept(ModItems.TITANIUM);
             output.accept(ModItems.RAW_TITANIUM);
-            output.accept(ModItems.CHISEL);
 
             //BLOCKS
             output.accept(ModBlocks.TITANIUM_BLOCK);
             output.accept(ModBlocks.TITANIUM_ORE);
             output.accept(ModBlocks.TITANIUM_DEEPSLATE_ORE);
+            output.accept(ModBlocks.TITANIUM_ORE_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {
