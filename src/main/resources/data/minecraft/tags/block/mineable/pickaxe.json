@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hydra:titanium_block",
+    "hydra:titanium_ore",
+    "hydra:titanium_deepslate_ore"
+  ]
+}

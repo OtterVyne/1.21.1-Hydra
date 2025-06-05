@@ -24,6 +24,12 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> TITANIUM_DEEPSLATE_ORE = registerBlock("titanium_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(3, 4),
+                    BlockBehaviour.Properties.of()
+                            .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
     public static final DeferredBlock<Block> TITANIUM_BLOCK = registerBlock("titanium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));

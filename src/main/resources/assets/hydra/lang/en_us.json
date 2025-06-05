@@ -1,6 +1,11 @@
 {
-  "item.hydra.titanium": "Titanium",
+  "item.hydra.titanium": "Titanium Ingot",
   "item.hydra.raw_titanium": "Raw Titanium",
+  "item.hydra.chisel": "Chisel",
+
+
   "block.hydra.titanium_ore": "Titanium Ore",
-  "block.hydra.titanium_block": "Block Of Titanium"
+  "block.hydra.titanium_deepslate_ore": "Deepslate Titanium Ore",
+  "block.hydra.titanium_block": "Block Of Titanium",
+  "creativetab.hydra.hydra_item_tab": "Hydra"
 }

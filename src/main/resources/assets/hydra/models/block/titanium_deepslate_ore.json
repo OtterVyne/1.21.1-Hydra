@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "hydra:block/titanium_ore"
+    "all": "hydra:block/titanium_deepslate_ore"
   }
 }
