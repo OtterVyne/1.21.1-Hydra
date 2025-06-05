@@ -1,5 +1,7 @@
 package net.ottervyne.hydra;
 
+import net.ottervyne.hydra.block.ModBlocks;
+import net.ottervyne.hydra.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -44,6 +46,9 @@ public class Hydra {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::addCreative);
 
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -54,7 +59,14 @@ public class Hydra {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.TITANIUM);
+            event.accept(ModItems.RAW_TITANIUM);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.TITANIUM_ORE);
+            event.accept(ModBlocks.TITANIUM_BLOCK);
+        }
     }
 
     @SubscribeEvent
