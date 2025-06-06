@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "hydra:titanium"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 3,
+      "item": "hydra:titanium_dust"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:gunpowder"
+    }
+  ]
+}

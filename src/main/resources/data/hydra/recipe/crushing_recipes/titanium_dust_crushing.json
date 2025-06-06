@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "hydra:titanium"
+    }
+  ],
+  "processingTime": 350,
+  "results": [
+    {
+      "count": 4,
+      "item": "hydra:titanium_dust"
+    },
+    {
+      "chance": 0.25,
+      "item": "hydra:titanium_dust"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "create:zinc_nugget"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "hydra:powdered_titanium"
+    }
+  ],
+  "results": [
+    {
+      "item": "hydra:titanium_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:iron_nugget"
+    }
+  ]
+}

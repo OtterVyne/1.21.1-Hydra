@@ -1,9 +1,9 @@
 package net.ottervyne.hydra.item.custom;
 
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvent;
+
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
@@ -16,6 +16,8 @@ import net.ottervyne.hydra.block.ModBlocks;
 import java.util.Map;
 
 public class ChiselItem extends Item {
+
+
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
                     Blocks.STONE, Blocks.STONE_BRICKS,
@@ -41,8 +43,14 @@ public class ChiselItem extends Item {
             
             context.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), context.getPlayer(),
                     item ->  context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
-
-            level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+            level.playSound(
+                    null,
+                    context.getClickedPos(),
+                    SoundEvents.GRINDSTONE_USE,
+                    SoundSource.BLOCKS,
+                    1.0F,
+                    0.5F
+            );
         }
     }
         return super.useOn(context);

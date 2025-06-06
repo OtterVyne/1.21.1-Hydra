@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "hydra:titanium_dust"
+    },
+    {
+      "tag": "create:zinc"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "hydra:impure_titanium"
+    },
+    {
+      "chance": 0.4,
+      "item": "minecraft:zinc_nugget"
+    }
+  ]
+}

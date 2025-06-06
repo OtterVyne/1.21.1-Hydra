@@ -11,6 +11,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.ottervyne.hydra.Hydra;
+import net.ottervyne.hydra.block.custom.PowderedTitanium;
 import net.ottervyne.hydra.item.ModItems;
 
 import java.util.function.Supplier;
@@ -38,6 +39,12 @@ public class ModBlocks {
     public static final DeferredBlock<Block> TITANIUM_BLOCK = registerBlock("titanium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    //SAND-LIKE BLOCKS (FALLING BLOCKS)
+    public static final DeferredBlock<Block> POWDERED_TITANIUM = registerBlock("powdered_titanium",
+            () -> new PowderedTitanium(BlockBehaviour.Properties.of()
+                    .strength(1f)
+                    .sound(SoundType.SAND)));
 
 
 

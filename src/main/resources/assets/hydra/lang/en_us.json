@@ -1,11 +1,15 @@
 {
   "item.hydra.titanium": "Titanium Ingot",
+  "item.hydra.titanium_dust": "Titanium Dust",
+  "item.hydra.impure_titanium": "Impure Titanium",
   "item.hydra.raw_titanium": "Raw Titanium",
+  "item.hydra.titanium_apple": "Titanium Apple",
   "item.hydra.chisel": "Chisel",
 
 
   "block.hydra.titanium_ore": "Titanium Ore",
   "block.hydra.titanium_ore_block": "Block Of Raw Titanium",
+  "block.hydra.powdered_titanium": "Powdered Titanium",
   "block.hydra.titanium_deepslate_ore": "Deepslate Titanium Ore",
   "block.hydra.titanium_block": "Block Of Titanium",
   "creativetab.hydra.hydra_item_tab": "Hydra"

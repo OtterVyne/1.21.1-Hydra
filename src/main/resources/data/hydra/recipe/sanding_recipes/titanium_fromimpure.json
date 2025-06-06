@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "hydra:impure_titanium"
+    }
+  ],
+  "results": [
+    {
+      "item": "hydra:titanium"
+    }
+  ]
+}
